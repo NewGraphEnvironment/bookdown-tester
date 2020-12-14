@@ -1,9 +1,0 @@
-fig:nice-fig
-prerequisites
-intro
-literature
-methods
-applications
-example-one
-example-two
-final-words
