@@ -11,8 +11,12 @@ plot(pressure, type = 'b', pch = 19)
 
 Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
+Test out a [link](#test)
+
 ```{r nice-tab, tidy=FALSE}
-knitr::include_graphics('data/photos/1000/crossing_all.JPG')
+knitr::include_graphics('data/photos/1000/20200922_125115_road.JPG')
+
+
 ```
 
 You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
